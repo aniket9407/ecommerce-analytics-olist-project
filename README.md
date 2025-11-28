@@ -3,7 +3,7 @@ SQL • Python • Power BI • Data Modeling • Business Insights
 
 Author: Aniket Sharma
 
-🧭 1. Project Overview
+1. Project Overview
 
 This project is a complete end-to-end analytics workflow built on the Brazilian Olist E-commerce dataset (100,000+ orders).
 It showcases industry-level data analytics capabilities including:
@@ -23,25 +23,23 @@ Interactive 4-page dashboard for stakeholders
 The purpose of this project is to demonstrate real-world problem-solving skills required for a Data Analyst role across e-commerce, logistics, supply chain, and business intelligence teams.
 
 2. Tools & Technologies
-| Tool                                     | Usage                                                  |
-| ---------------------------------------- | ------------------------------------------------------ |
-| **MySQL**                                | Data schema creation, cleaning, transformations, joins |
-| **Python (Pandas, Matplotlib, Seaborn)** | EDA, cohort analysis, correlation modeling             |
-| **Power BI**                             | Data modeling, DAX measures, KPI dashboards            |
-| **GitHub**                               | Version control, repository management                 |
-| **Google Drive**                         | Hosting large PBIX and dataset files                   |
+Tool	Usage
+MySQL	Data: schema creation, cleaning, transformations, joins
+Python (Pandas, Matplotlib, Seaborn): 	EDA, cohort analysis, correlation modeling
+Power BI:	Data modeling, DAX measures, KPI dashboards
+GitHub:	Version control, repository management
+Google Drive:	Hosting large PBIX and dataset files
 
 3. Repository Structure
 ecommerce-analytics-olist-project/
-│
-├── data-raw/               # Placeholder (Actual files in Google Drive)
-├── docs/                   # Executive summary & documentation
-├── data-cleaned/           # Placeholder (Actual files in Google Drive)
-├── powerbi-dashboard/      # Placeholder (PBIX stored in Google Drive)
-├── python-analysis/        # Python notebook for EDA & modeling
-├── screenshots/            # Dashboard images & EDA plots
-├── sql-scripts/            # SQL data cleaning, transformations, joins
-└── README.md               # This file
+   data-raw/               # Placeholder (Actual files in Google Drive)
+   docs/                   # Executive summary & documentation
+   data-cleaned/           # Placeholder (Actual files in Google Drive)
+   powerbi-dashboard/      # Placeholder (PBIX stored in Google Drive)
+   python-analysis/        # Python notebook for EDA & modeling
+   screenshots/            # Dashboard images & EDA plots
+   sql-scripts/            # SQL data cleaning, transformations, joins
+   README.md               # This file
 Full project files (PBIX, raw datasets, cleaned datasets, SQL scripts, Python notebook):
  Google Drive Link: https://drive.google.com/drive/folders/1xRZDSdSYuSX3CoiITQaRLeER4d1VILg7?usp=sharing
 
