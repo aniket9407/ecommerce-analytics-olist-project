@@ -1,9 +1,9 @@
-Olist E-Commerce Analytics — End-to-End Data Analytics Project
+📊 Olist E-Commerce Analytics — End-to-End Data Analytics Project
 SQL • Python • Power BI • Data Modeling • Business Insights
 
 Author: Aniket Sharma
 
-1. Project Overview
+🧭 1. Project Overview
 
 This project is a complete end-to-end analytics workflow built on the Brazilian Olist E-commerce dataset (100,000+ orders).
 It showcases industry-level data analytics capabilities including:
@@ -22,29 +22,28 @@ Interactive 4-page dashboard for stakeholders
 
 The purpose of this project is to demonstrate real-world problem-solving skills required for a Data Analyst role across e-commerce, logistics, supply chain, and business intelligence teams.
 
-2. Tools & Technologies
+🧰 2. Tools & Technologies
 Tool	Usage
-MySQL	Data: schema creation, cleaning, transformations, joins
-Python (Pandas, Matplotlib, Seaborn): 	EDA, cohort analysis, correlation modeling
+MySQL:	Data schema creation, cleaning, transformations, joins
+Python (Pandas, Matplotlib, Seaborn):	EDA, cohort analysis, correlation modeling
 Power BI:	Data modeling, DAX measures, KPI dashboards
 GitHub:	Version control, repository management
 Google Drive:	Hosting large PBIX and dataset files
 
-
-3. Data Preparation & Cleaning (SQL)
-- Addressed inconsistent timestamp formats
+🛠️ 3. Data Preparation & Cleaning (SQL)
+✔ Addressed inconsistent timestamp formats
 
 Converted raw text timestamps into proper DATETIME format
 
 Fixed invalid or missing dates (e.g., 30,699 missing delivery dates)
 
-- Standardized product dimension columns
+✔ Standardized product dimension columns
 
 Handled missing weight, height, width, and length fields
 
 Converted empty fields to NULL and imputed when necessary
 
-- Removed data anomalies
+✔ Removed data anomalies
 
 Negative price or freight values
 
@@ -52,7 +51,7 @@ Duplicate customer IDs
 
 Invalid product categories
 
-- Built a master dataset using joins
+✔ Built a master dataset using joins
 
 Final master dataset includes:
 
@@ -86,8 +85,8 @@ Data validation
 
 Performance optimization through indexing
 
-4. Exploratory Data Analysis (Python)
-- Conducted comprehensive EDA:
+🧪 4. Exploratory Data Analysis (Python)
+✔ Conducted comprehensive EDA:
 
 Revenue distribution
 
@@ -103,14 +102,14 @@ Seller performance
 
 Delivery time behavior
 
-- Correlation Analysis
+✔ Correlation Analysis
 
 Significant finding:
 
 Product weight has a strong correlation (0.61) with freight cost.
 This indicates shipping charges are influenced more by physical characteristics than price.
 
-- Cohort Analysis
+✔ Cohort Analysis
 
 Created cohort groups using first purchase date:
 
@@ -122,7 +121,7 @@ Month 2+ → Very low repeat behavior
 
 Repeat customer rate ≈ 2–3%, indicating major opportunities for CRM improvements.
 
-5. Power BI Dashboard — 4 Pages
+📊 5. Power BI Dashboard — 4 Pages
 ### Page 1 — Sales Overview
 
 Total Revenue, Total Orders
@@ -202,8 +201,8 @@ Seller performance varies significantly
 
 Cities far from seller clusters show longer delivery times
 
-6. Key Data-Driven Insights
-- Sales
+📈 6. Key Data-Driven Insights
+✔ Sales
 
 Total Revenue: 15.8M+
 
@@ -217,7 +216,7 @@ Relogios Presentes
 
 Cama Mesa Banho
 
-- Customer
+✔ Customer
 
 Total customers: 95k
 
@@ -227,7 +226,7 @@ Avg orders per customer: 1.03
 
 Low retention → urgent need for customer loyalty programs
 
-- Logistics
+✔ Logistics
 
 Avg delivery time: 12–13 days
 
@@ -237,7 +236,7 @@ Product weight strongly increases freight cost
 
 Certain sellers consistently deliver late → SLA risk
 
-7. Skills Demonstrated
+🧠 9. Skills Demonstrated
 
 SQL data modeling & optimization
 
@@ -253,7 +252,7 @@ Business domain knowledge (E-commerce & logistics)
 
 Insight presentation for stakeholders
 
-8. Executive Summary (Business View)
+📝 10. Executive Summary (Business View)
 
 This analysis provides an end-to-end view of how an e-commerce business performs across the funnel:
 
@@ -277,9 +276,9 @@ Focus on improving delivery predictability
 
 Prioritize high-potential categories
 
-9. Access Full Project (Datasets + PBIX + Code)
+🌐 11. Access Full Project (Datasets + PBIX + Code)
 
-Google Drive Link: https://drive.google.com/drive/folders/1xRZDSdSYuSX3CoiITQaRLeER4d1VILg7?usp=sharing
+👉 Google Drive Link: https://drive.google.com/drive/folders/1xRZDSdSYuSX3CoiITQaRLeER4d1VILg7?usp=sharing
 Includes:
 
 PBIX dashboard
@@ -292,7 +291,7 @@ Python notebook
 
 Documentation
 
-10. About Me
+🙋‍♂️ 12. About Me
 
 I am Aniket Sharma, an aspiring Data Analyst with hands-on experience in:
 
@@ -307,4 +306,3 @@ Business analytics
 Dashboarding & storytelling
 
 This project demonstrates my full capability to deliver real business impact using data.
-
