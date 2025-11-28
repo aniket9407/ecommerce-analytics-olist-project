@@ -30,20 +30,8 @@ Power BI:	Data modeling, DAX measures, KPI dashboards
 GitHub:	Version control, repository management
 Google Drive:	Hosting large PBIX and dataset files
 
-3. Repository Structure
-ecommerce-analytics-olist-project/
-   data-raw/               # Placeholder (Actual files in Google Drive)
-   docs/                   # Executive summary & documentation
-   data-cleaned/           # Placeholder (Actual files in Google Drive)
-   powerbi-dashboard/      # Placeholder (PBIX stored in Google Drive)
-   python-analysis/        # Python notebook for EDA & modeling
-   screenshots/            # Dashboard images & EDA plots
-   sql-scripts/            # SQL data cleaning, transformations, joins
-   README.md               # This file
-Full project files (PBIX, raw datasets, cleaned datasets, SQL scripts, Python notebook):
- Google Drive Link: https://drive.google.com/drive/folders/1xRZDSdSYuSX3CoiITQaRLeER4d1VILg7?usp=sharing
 
-4. Data Preparation & Cleaning (SQL)
+3. Data Preparation & Cleaning (SQL)
 - Addressed inconsistent timestamp formats
 
 Converted raw text timestamps into proper DATETIME format
@@ -98,7 +86,7 @@ Data validation
 
 Performance optimization through indexing
 
-5. Exploratory Data Analysis (Python)
+4. Exploratory Data Analysis (Python)
 - Conducted comprehensive EDA:
 
 Revenue distribution
@@ -134,7 +122,7 @@ Month 2+ → Very low repeat behavior
 
 Repeat customer rate ≈ 2–3%, indicating major opportunities for CRM improvements.
 
-6. Power BI Dashboard — 4 Pages
+5. Power BI Dashboard — 4 Pages
 ### Page 1 — Sales Overview
 
 Total Revenue, Total Orders
@@ -214,7 +202,7 @@ Seller performance varies significantly
 
 Cities far from seller clusters show longer delivery times
 
-7. Key Data-Driven Insights
+6. Key Data-Driven Insights
 - Sales
 
 Total Revenue: 15.8M+
@@ -249,7 +237,7 @@ Product weight strongly increases freight cost
 
 Certain sellers consistently deliver late → SLA risk
 
-8. Skills Demonstrated
+7. Skills Demonstrated
 
 SQL data modeling & optimization
 
@@ -265,7 +253,7 @@ Business domain knowledge (E-commerce & logistics)
 
 Insight presentation for stakeholders
 
-9. Executive Summary (Business View)
+8. Executive Summary (Business View)
 
 This analysis provides an end-to-end view of how an e-commerce business performs across the funnel:
 
@@ -289,7 +277,7 @@ Focus on improving delivery predictability
 
 Prioritize high-potential categories
 
-10. Access Full Project (Datasets + PBIX + Code)
+9. Access Full Project (Datasets + PBIX + Code)
 
 Google Drive Link: https://drive.google.com/drive/folders/1xRZDSdSYuSX3CoiITQaRLeER4d1VILg7?usp=sharing
 Includes:
@@ -304,7 +292,7 @@ Python notebook
 
 Documentation
 
-11. About Me
+10. About Me
 
 I am Aniket Sharma, an aspiring Data Analyst with hands-on experience in:
 
